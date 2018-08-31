@@ -1,0 +1,249 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.game-root {
+    -fx-background-color: #f2f2f2;
+}
+
+
+.game-backGrid {
+    -fx-background-color: #a89b8f;
+    -fx-border-color: #a89b8f;
+    -fx-border-width: 2;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+}
+.game-grid {
+    -fx-background-color: #a6a6a6;
+    -fx-fill: #a6a6a6;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+}
+.game-grid-cell {
+    -fx-fill: #bcbcbc;
+    -fx-stroke-type: centered;
+    -fx-stroke: #b3b3b3
+}
+
+.game-vbox {
+    -fx-background-color: rgb(166, 166, 166);
+    -fx-padding: 5 15 5 15;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+}
+
+.game-HTop {
+    -fx-background-color: #dddddd;
+    -fx-padding: 5 15 5 15;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+}
+
+.game-VGame {
+    -fx-background-color: #dddddd;
+    -fx-background-size: 1000 700;
+    -fx-padding: 5 15 5 15;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+}
+
+.game-HBottom {
+    -fx-background-color: #a6a6a6;
+    -fx-padding: 5 15 5 15;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+}
+
+.grid-canvas {
+    -fx-background-color: #faf8ef;
+    -fx-fill: #cdc1b4;
+}
+
+
+.game-label {
+    -fx-font-smoothing-type: lcd;
+    -fx-smooth: true;
+    -fx-font-family: 'Clear Sans Bold';
+}
+
+.game-title {
+    -fx-font-size: 60px;
+    -fx-text-fill: #404040;
+    -fx-effect: dropshadow( three-pass-box, rgba(217, 217, 217, 2), 10, 0.7, 0, 0 );
+}
+.game-subtitle {
+    -fx-font-size: 45px;
+    -fx-text-fill: #000000;
+    -fx-effect: dropshadow( three-pass-box, rgba(255, 255, 255, 2), 10, 0.8, 0, 0 );
+}
+.game-clear-text {
+    -fx-font-size: 50px;
+    -fx-text-fill: #ccffff;
+    -fx-effect: dropshadow( three-pass-box, rgba(230, 255, 255, 2), 10, 0.7, 0, 0 );
+}
+
+.game-score-text {
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box, rgba(230, 230, 230, 2), 5, 0.3, 0, 0 );
+}
+
+.game-get-player {
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box, rgba(230, 230, 230, 2), 5, 0.3, 0, 0 );
+}
+
+.game-prevscore-text {
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box, rgba(230, 230, 230, 2), 5, 0.2, 0, 0 );
+}
+.game-currscore-text {
+    -fx-font-size: 25px;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box, rgba(230, 230, 230, 2), 5, 0.4, 0, 0 );
+}
+
+.game-scoreboard-text {
+    -fx-font-size: 25px;
+    -fx-text-fill: #660066;
+    -fx-effect: dropshadow( three-pass-box, rgba(255, 204, 255, 2), 5, 0.4, 0, 0 );
+}
+
+.game-overlay {
+    -fx-font-size: 60px;
+    -fx-text-fill: #f9f6f2;
+    -fx-border-color: #f9f6f2;
+    -fx-border-width: 2;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+}
+
+.game-overlay-pause, .game-overlay-quit {
+    -fx-opacity: 0.9;
+    -fx-background-color: #f9f6f2;
+}
+.game-lblPause, .game-lblOver, .game-lblQuit {
+    -fx-font-size: 60px;
+    -fx-text-fill: #776e65;
+}
+.game-overlay-won {
+    -fx-background-color: rgba(237, 194, 46, 0.5);
+}
+.game-lblWon {
+    -fx-font-size: 60px;
+    -fx-text-fill: #f9f6f2;
+}
+.game-overlay-over {
+    -fx-opacity: 0.6;
+    -fx-background-color: #f9f6f2;
+}
+.game-button {
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+    -fx-background-color: #262626;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-padding: 0 60 0 60;
+}
+.game-button:hover {
+    -fx-font-size: 15px;
+    -fx-text-fill: #4d4d4d;
+    -fx-background-color: white;
+    -fx-border-color: grey;
+    -fx-border-width: 2;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-padding: 0 100 0 100;
+}
+
+.game-bottom-button {
+	-fx-display: inline-block;
+	-fx-line-height: 64px;
+	-fx-background-color: #eaeaea;
+	-fx-moz-border-radius: 32px;
+	-fx-webkit-border-radius: 32px;
+	-fx-border-radius: 50px;
+	-fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, .25), 10, 0.7, 0, 0 );
+
+	-fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-background-radius: 20;
+}
+
+.home-button {
+     -fx-graphic: url('Assets/home.png');
+ }
+ .back-button {
+     -fx-graphic: url('Assets/back.png');
+ }
+ .quit-button {
+     -fx-graphic: url('Assets/quit.png');
+ }
+ .restart-button {
+     -fx-graphic: url('Assets/restart.png');
+ }
+ .hint-button {
+     -fx-graphic: url('Assets/hint.png');
+ }
+
+.game-button-2 {
+    -fx-font-size: 13px;
+    -fx-text-fill: white;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+}
+
+.game-button-2:pressed, .game-button-3:pressed{
+}
+
+.game-button-2:hover, .game-button-3:hover, .game-bottom-button:hover {
+	-fx-font-size: 13px;
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-border-color: grey;
+    -fx-border-width: 2;
+}
+
+.game-button-2:hover, .game-button-3:hover {
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+
+.game-button-3 {
+    -fx-font-size: 13px;
+    -fx-text-fill: #6600cc;
+    -fx-background-color: #ccccff;
+    -fx-border-color: #9900cc;
+    -fx-border-width: 2;
+    -fx-background-radius: 3;
+    -fx-border-radius: 2;
+}
+
+#first-page{
+    -fx-background-image: url("Assets/bg1.jpg");
+    -fx-background-size: 400 680;
+    -fx-background-position: center center;
+}
+
+#second-page{
+    -fx-background-image: url("Assets/bg2.jpg");
+    -fx-background-size: 400 900;
+    -fx-background-position: center center;
+}
+
+#third-page{
+	-fx-background-image: url("Assets/bg4.jpg");
+    -fx-background-size: 400 900;
+    -fx-background-position: center center;
+}
+
+#win-scene{
+    -fx-background-image: url("Assets/bg3.jpg");
+    -fx-background-size: 610 1080;
+    -fx-background-position: center center;
+}
